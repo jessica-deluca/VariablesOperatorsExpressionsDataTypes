@@ -69,39 +69,117 @@ namespace VariablesOperatorsExpressionsDataTypes
             //double numberBoxes = amountHave / boxCost;
             //Console.WriteLine(numberBoxes);
 
-            Console.WriteLine("How many ones do you want donate?");
-            int ones = int.Parse(Console.ReadLine());
-            int oneDollar = 1 * ones;
-            Console.WriteLine("How many fives do you want donate?");
-            int fives = int.Parse(Console.ReadLine());
-            int fiveDollar = 5 * fives;
-            Console.WriteLine("How many tens do you want donate?");
-            int tens = int.Parse(Console.ReadLine());
-            int tenDollar = 10 * tens;
-            Console.WriteLine("How many twenties do you want donate?");
-            int twenties = int.Parse(Console.ReadLine());
-            int twentyDollar = 20 * twenties;
-            Console.WriteLine("How many fifties do you want donate?");
-            int fifties = int.Parse(Console.ReadLine());
-            int fiftyDollar = 50 * fifties;
-            Console.WriteLine("How many hundreds do you want donate?");
-            int hundreds = int.Parse(Console.ReadLine());
-            int hundredDollar = 100 * hundreds;
-            Console.WriteLine("How many quarters do you want donate?");
-            float quarters = float.Parse(Console.ReadLine());
-            float quarterCoin = .25f * quarters;
+            //Console.WriteLine("How many ones do you want to donate?");
+            //int ones = int.Parse(Console.ReadLine());
+            //int oneDollar = 1 * ones;
+            //Console.WriteLine("How many fives do you want to donate?");
+            //int fives = int.Parse(Console.ReadLine());
+            //int fiveDollar = 5 * fives;
+            //Console.WriteLine("How many tens do you want to donate?");
+            //int tens = int.Parse(Console.ReadLine());
+            //int tenDollar = 10 * tens;
+            //Console.WriteLine("How many twenties do you want to donate?");
+            //int twenties = int.Parse(Console.ReadLine());
+            //int twentyDollar = 20 * twenties;
+            //Console.WriteLine("How many fifties do you want to donate?");
+            //int fifties = int.Parse(Console.ReadLine());
+            //int fiftyDollar = 50 * fifties;
+            //Console.WriteLine("How many hundreds do you want to donate?");
+            //int hundreds = int.Parse(Console.ReadLine());
+            //int hundredDollar = 100 * hundreds;
+            //Console.WriteLine("How many quarters do you want to donate?");
+            //double quarters = double.Parse(Console.ReadLine());
+            //double quarterCoin = .25d * quarters;
 
-            float donationAmount = oneDollar + fiveDollar + tenDollar + twentyDollar + fiftyDollar + hundredDollar + quarterCoin;
+            //double donationAmount = oneDollar + fiveDollar + tenDollar + twentyDollar + fiftyDollar + hundredDollar + quarterCoin;
 
-            Console.WriteLine("Name: ");
-            string name = Console.ReadLine();
-            Console.WriteLine("Address: ");
-            string address = Console.ReadLine();
-            Console.WriteLine("Email: ");
-            string email = Console.ReadLine();
-            Console.WriteLine("Fiscal Year: ");
-            string fiscalYear = Console.ReadLine();
-            Console.WriteLine(name + "" + "" + address + "" + "" + email + "" + "" + fiscalYear + "" + "Donation Amount: " + donationAmount);
+            //Console.WriteLine("Name: ");
+            //string name = Console.ReadLine();
+            //Console.WriteLine("Address: ");
+            //string address = Console.ReadLine();
+            //Console.WriteLine("Email: ");
+            //string email = Console.ReadLine();
+            //Console.WriteLine("Fiscal Year: ");
+            //string fiscalYear = Console.ReadLine();
+            //Console.WriteLine(name);
+            //Console.WriteLine(address);
+            //Console.WriteLine(email);
+            //Console.WriteLine(fiscalYear);
+            //Console.WriteLine("Donation Amount: " + donationAmount)
+
+            //Console.WriteLine("How many A's did you receive?");
+            //int As = int.Parse(Console.ReadLine());
+            //int Apoints = 4 * As;
+
+            //Console.WriteLine("How many B's did you receive?");
+            //int Bs = int.Parse(Console.ReadLine());
+            //int Bpoints = 3 * Bs;
+
+            //Console.WriteLine("How many C's did you receive?");
+            //int Cs = int.Parse(Console.ReadLine());
+            //int Cpoints = 2 * Cs;
+
+            //Console.WriteLine("How many D's did you receive?");
+            //int Ds = int.Parse(Console.ReadLine());
+            //int Dpoints = 1 * Ds;
+
+            //int totalPoints = Apoints + Bpoints + Cpoints + Dpoints;
+
+            //int totalGradesReceived = As + Bs + Cs + Ds;
+
+            //double gpa = totalPoints / totalGradesReceived;
+
+            //Console.WriteLine(gpa);
+
+            //limit the number of decimal places to 2 (X.XX)
+
+            //decimal a = 52.0m / 35.0m;
+            //Console.WriteLine(Math.Round(a, 2));
+
+            //Console.WriteLine(a); // this does not give me the answer I'm looking for but can't figure it out
+
+        //    calculate the GPAs of 7 students and based on their GPAs, calculate the class average.
+        //    int numberOfStudents = 7;
+        //double totalGpas = gpaStudent1 + gpaStudent2 + gpaStudent3 + gpaStudent4 + gpaStudent5 + gpaStudent6 + gpaStudent7;
+        //double gpasAverage = totalGpas / numberOfStudents
+        //    Console.WriteLine(gpasAverage);
+
+        //    //known variables
+        //    double superSwim = 15d;
+        //    double beTheShark = 17.50d;
+        //    double babyBubbles = 4.75d;
+
+        //    //ask the buyer how many of each tshirt they want
+        //    //consider adding an intro statement
+        //    Console.WriteLine("How many Super Swim tshirts ($15 each) would you like to purchase?");
+        //    int numberOfSuperSwim = int.Parse(Console.ReadLine());
+
+        //    Console.WriteLine("How many Be the Shark tshirts ($17.50 each) would you like to purchase?");
+        //    int numberOfBeTheShark = int.Parse(Console.ReadLine());
+
+        //    Console.WriteLine("How many Baby Bubbles tshirts ($4.75 each) would you like to purchase?");
+        //    int numberOfBabyBubbles = int.Parse(Console.ReadLine());
+
+        //    //calculate total number of shirts
+        //    int totalShirts = numberOfSuperSwim + numberOfBeTheShark + numberOfBabyBubbles;
+
+        //    //calculate the subtotal
+        //    double superSwimTotalCost = superSwim * numberOfSuperSwim;
+        //    double beTheSharkTotalCost = beTheShark * numberOfBeTheShark;
+        //    double babyBubblesTotalCost = babyBubbles * numberOfBabyBubbles;
+
+        //    double subTotal = superSwimTotalCost + beTheSharkTotalCost + babyBubblesTotalCost;
+
+        //    //calculate the grand total
+        //    double grandTotal = subTotal * .08 + subTotal;
+
+        //    //print receipt
+        //    Console.WriteLine("Total Shirts: " + totalShirts);
+        //    Console.WriteLine("Subtotal: " + subTotal);
+        //    Console.WriteLine("Grand Total (0.08% sales tax): " + grandTotal);
+
+
+
 
 
 
